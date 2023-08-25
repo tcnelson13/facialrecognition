@@ -27,7 +27,7 @@ class Register extends Component {
     // if (!name || !email || !password) {
     //   console.log("Required fields yo!");
     // } else {
-    fetch("http://localhost:3000/register", {
+    fetch("https://smart-brain-api-hqe0.onrender.com/register", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
